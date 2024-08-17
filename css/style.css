@@ -1,0 +1,237 @@
+.rancho-font {
+    font-family: "Rancho", cursive;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  /* shared */
+ /* black:#242222 
+ white:#FFFFFF
+ brown:#E3B577
+ bluish:#ECEAE3*/
+  /* navbar section */
+  .nav-main{
+    background: url('../images/15.jpg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+  .nav-div{
+    display: flex;
+    align-items:center;
+    width: 250px;
+    padding: 5px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+  }
+  .nav-div img{
+    width: 50px;
+    margin-right: 10px;
+  }
+  .nav-div h1{
+    font-size: 30px;
+    font-weight: 100px;
+  }
+  /* banner section */
+  .banner-container{
+    background-image: url(../images/more/3.png);
+    background-size:100% 100%;
+    height: 500px ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .banner-main{
+    color: rgb(255, 255, 255);
+    width: 55%;
+    height: 150px;
+  }
+  .banner-main p{
+   margin-top: 10px;
+   width: 70%;
+  }
+  .banner-main h1{
+   font-size: 40px;
+  }
+  .banner-btn{
+    background-color: #E3B577;
+    border: none;
+    padding: 8px 15px;
+    margin-top:20px ;
+    color: rgb(36, 34, 34);
+    font-family: Rancho;
+    font-size: 15px;
+  }
+  /* first section */
+  .icon-main{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 20px 0;
+     background-color: #ECEAE3;
+     gap: 10px;
+  }
+  .icon-1, .icon-2, .icon-3, .icon-4{
+    width: 200px;
+  }
+  .icon-1 img, .icon-2 img, .icon-3 img, .icon-4 img{
+    width: 40px;
+  }
+  /* second section */
+  .container-cup{
+    margin: 50px auto;
+    width: 98vw;
+    background-image: url(../images/more/1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .popular-container{
+    width: 99%;
+    padding: 15px 0;
+  }
+ .popular-banner-text{
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+  }
+ .popular-banner-text ,h1{
+    margin-top: 10px;
+  }
+
+  .popular-btn{
+    background-color: #E3B577;
+    border: 1px solid rgb(36, 34, 34) ;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top:20px ;
+    color: #FFFFFF;
+    font-family: Rancho;
+    font-size: 15px;
+  }
+  /* coffee cup */
+  .coffee-cup-container{
+    width: 880px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .coffee-cup-main{
+     display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    width: 400px;
+    background-color:#eceae3a8;
+    padding: 10px;
+  }
+  .coffee-cup-img img{
+      width: 100px;
+  }
+  .img-cup-6 img{
+    width: 70px;
+  }
+  .coffee-cup-text{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .coffee-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .coffee-icons-draft{
+    border: 1px solid black;
+    padding: 2px 6px;
+    border-radius:5px ;
+    width: 20px;
+    text-align: center;
+  }
+  /* third section */
+  .coffee-cups-container{
+      width: 98vw;
+      height: auto;
+      margin: 0 auto;
+  }
+  .coffee-cups-text{
+     width: 250px;
+     margin: 20px auto;
+     text-align: center;
+  }
+  .coffee-cups-grid{
+    width: 980px;
+    height: 450px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+  }
+  .grid-cups{
+    border-radius: 10px;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+  }
+  .grid-cups img{
+     width: 100%;
+     height:100%;
+  }
+  /* footer section */
+  .footer-container{
+    color: #331A15;
+    width: 98vw;
+    margin: 20px auto;
+    /* height: 650px; */
+    border: 1px solid green;
+  }
+  .footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 80vw;
+    margin: 30px auto ;
+  }
+  .footer-left{
+    border: 1px solid green;
+    width: 50%;
+    height: 100%;
+  }
+  .footer-img-icon{
+   border: 1px solid red;
+   width: 100%;
+   height: 100%;
+  }
+  p, h1{
+    margin-top: 10px;
+  }
+  p{
+    width: 60%;
+  }
+  .footer-right{
+    width: 40%;
+    height: 100%;
+    border: 1px solid rgb(0, 21, 128);
+  }
+  .footer-img img{
+    width: 60px;
+    margin-top: 10px;
+  }
+  .div{
+    font-size: 30px;
+  }
+  .foot-btn{
+    padding: 10px 15px;
+    border-radius: 25px; 
+    background-color: transparent;
+  }
+  .div-last{
+    border: 1px solid red;
+    padding: 15px;
+    width: 95vw;
+    text-align: center;
+  }

@@ -1,0 +1,65 @@
+@media screen and (max-width:576px){
+    .nav-main{
+         width: 100%;
+      }
+      /* banner section */
+      .banner-container{
+        background-size:100% 100%;
+      }
+      .banner-main{
+        width: 100%;
+        height: auto;
+        margin-top: -250px;
+        text-align: center;
+      }
+      .banner-main p{
+        width: 99%;
+        /* text-align: center; */
+       }
+       .banner-main h1{
+        font-size: 20px;
+       }
+       /* first section */
+       .icon-main{
+         flex-direction: column;
+         margin-bottom: 10px;
+         align-items: center;
+       }
+       .icon-1, .icon-2, .icon-3, .icon-4{
+         margin-bottom: 10px;
+         text-align: center;
+         /* border: 1px solid red; */
+       }
+       /* coffee cup */
+       .container-cup{
+        background-image: none;
+       }
+       .coffee-cup-container{
+        width: 99%;
+        grid-template-columns: repeat(1, 1fr);
+      }
+       .coffee-cup-main{
+        width: 75%;
+        margin: 0 auto;
+      }
+       .coffee-cup-img img{
+        width: 60px;
+      }
+      .img-cup-6 img{
+        width: 45px;
+      }
+      /* grid cup section */
+      .coffee-cups-grid{
+        width: 80%;
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+      }
+      .grid-cups{
+        width: 100%;
+        height:100%;
+      }
+      .grid-cups img{
+        width: 100%;
+        height:100%;
+     }
+}
