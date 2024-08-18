@@ -63,7 +63,9 @@
         height:100%;
      }
      /* footer section */
+
      .footer-main{
+      width: 90%;
       flex-direction: column;
      }
      .footer-right{
@@ -74,5 +76,10 @@
      .footer-left{
       width: 90%;
      }
+     .div-last{
+   
+      width: 90%;
+
+    }
 
 }
