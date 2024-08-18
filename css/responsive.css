@@ -62,4 +62,17 @@
         width: 100%;
         height:100%;
      }
+     /* footer section */
+     .footer-main{
+      flex-direction: column;
+     }
+     .footer-right{
+         width: 90%;
+         margin-left: 3px;
+         margin-top: 20px;
+     }
+     .footer-left{
+      width: 90%;
+     }
+
 }
